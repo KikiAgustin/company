@@ -1,4 +1,70 @@
-.judul-awal{
-    font-weight: bold;
-    font-size: 25px;
+*{
+    outline: none;
 }
+
+.halaman-utama {
+    background: linear-gradient(to right, #8F9C9C, #ffffff);  
+    font-family: "Open sans";
+  }
+
+
+.judul-awal{
+    font-size: 50px;
+    font-weight: 800;
+    margin-top: 15%;
+}
+
+.sub-judul-awal {
+    font-size: 23px;
+    font-weight: 400;
+}
+
+.sub-awal {
+    display: none;
+}
+
+.btn-home {
+    font-size: 25px;
+    font-weight: 500;
+    color: black;
+    border: 1px solid black;
+    margin-top: 50px;
+}
+
+.btn-remove {
+    display: none;
+}
+
+
+
+/* Ukuran Mobile */
+@media (max-width: 575.98px) { 
+
+    .judul-awal{
+        font-size: 23px;
+        font-weight: 800;
+        margin-top: 35%;
+    }
+
+    .sub-judul-awal {
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+    .sub-awal {
+        display: none;
+    }
+
+    .btn-home {
+        font-size: 20px;
+        font-weight: 400;
+        color: black;
+        border: 1px solid black;
+        margin-top: 20px;
+    }
+
+    .btn-remove {
+        display: none;
+    }
+
+ }
