@@ -10,7 +10,7 @@ function textIntro() {
 function textSubIntro() {
     $("#sub-awal").removeClass("sub-awal");
     $("#sub-judul-awal").velocity("transition.slideLeftIn", {
-        stagger: 150,
+        stagger: 1500,
         complete: function () {
             btnNilai();
         }
