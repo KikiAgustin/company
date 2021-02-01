@@ -62,7 +62,7 @@
 
 .judul-about {
     font-size: 40px;
-    font-weight: 800;
+    font-weight: 600;
     margin-left: 40px;
     color: white;
 }
@@ -94,6 +94,41 @@
 .bg-daftar-dosen {
     background: linear-gradient(to right, #8f9aff, #ffffff);  
     border-radius: 10px;
+}
+
+.nama-dosen {
+    font-weight: 600;
+}
+
+.dosen-lainnya {
+    font-size: 24px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+
+/* Contact */
+
+.contact {
+    margin-top: 25px;
+    margin-bottom: 100px;
+}
+
+.google-maps {
+    align-items: center;
+    width: 550px;
+    height: 300px ;
+}
+
+.isi-contact {
+    margin-top: 5%;
+    font-weight: 600;
+}
+
+/* Footer */
+
+.footer {
+    background-color: #8f9aff ;
 }
 
 
@@ -152,7 +187,7 @@
 
 .judul-about {
     font-size: 30px;
-    font-weight: 800;
+    font-weight: 600;
     margin-left: 40px;
     color: white;
 }
@@ -168,6 +203,23 @@
     font-weight: 550;
     text-align: justify;
     margin-top: 38px;
+}
+
+/* Contact */
+
+.contact {
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.google-maps {
+    align-items: center;
+    width: 400px;
+    height: 200px ;
+}
+
+.isi-contact {
+    margin-top: 0%;
 }
 
  }
@@ -196,7 +248,7 @@
 
 .judul-about {
     font-size: 30px;
-    font-weight: 800;
+    font-weight: 600;
     margin-left: 40px;
     color: white;
 }
@@ -212,6 +264,16 @@
     font-weight: 550;
     text-align: justify;
     margin-top: 38px;
+}
+/* Contact */
+.google-maps {
+    align-items: center;
+    width: 250px;
+    height: 200px ;
+}
+
+.isi-contact {
+    margin-top: 0%;
 }
 
  }
