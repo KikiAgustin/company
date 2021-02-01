@@ -30,6 +30,7 @@
     color: black;
     border: 1px solid black;
     margin-top: 50px;
+    width: 230px;
 }
 
 .btn-remove {
@@ -38,7 +39,62 @@
 
 /* Halaman Home */
 
+/* Navbar */
+.navbar {
+    background-color: #8f9aff;
+}
 
+/* Home */
+.img-about {
+    margin-top: 17px;
+}
+
+.tex-home {
+    margin-top: 170px;
+    font-size: 34px;
+    font-weight: 900;
+}
+
+/* About */
+.about {
+    margin-top: 65px;
+}
+
+.judul-about {
+    font-size: 40px;
+    font-weight: 800;
+    margin-left: 40px;
+    color: white;
+}
+
+.bg-about-judul {
+    background: linear-gradient(to right, #8f9aff, #ffffff);  
+    border-radius: 40px;
+    padding: 10px;
+}
+
+.isi-about {
+    font-size: 20px;
+    font-weight: 650;
+    text-align: justify;
+    margin-top: 80px;
+}
+
+/* Daftar Dosen */
+
+.daftar-dosen {
+    margin-top: 60px;
+}
+
+.isi-daftar-dosen {
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.bg-daftar-dosen {
+    background: linear-gradient(to right, #8f9aff, #ffffff);  
+    border-radius: 10px;
+}
 
 
 /*  Ukuran Mobile */
@@ -73,8 +129,89 @@
     }
 
     /* Halaman Home */
-    .navbar-position {
-        float: left;
+    .navbar {
+        background-color: #8f9aff;
     }
+
+    /* About */
+.img-about {
+    margin-top:120px;
+}
+
+.tex-home {
+    margin-top: -500px;
+    font-size: 23px;
+    font-weight: 700;
+    text-align: center;
+}
+
+/* About */
+.about {
+    margin-top: 70px;
+}
+
+.judul-about {
+    font-size: 30px;
+    font-weight: 800;
+    margin-left: 40px;
+    color: white;
+}
+
+.bg-about-judul {
+    background: linear-gradient(to right, #8f9aff, #ffffff);  
+    border-radius: 40px;
+    padding: 8px;
+}
+
+.isi-about {
+    font-size: 20px;
+    font-weight: 550;
+    text-align: justify;
+    margin-top: 38px;
+}
+
+ }
+
+
+
+ /* Inspek */
+ @media (max-width: 360px) { 
+        /* Home */
+.img-about {
+    margin-top:70%;
+}
+
+.tex-home {
+    margin-top: -370px;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+}
+
+
+/* About */
+.about {
+    margin-top: 70px;
+}
+
+.judul-about {
+    font-size: 30px;
+    font-weight: 800;
+    margin-left: 40px;
+    color: white;
+}
+
+.bg-about-judul {
+    background: linear-gradient(to right, #8f9aff, #ffffff);  
+    border-radius: 40px;
+    padding: 8px;
+}
+
+.isi-about {
+    font-size: 20px;
+    font-weight: 550;
+    text-align: justify;
+    margin-top: 38px;
+}
 
  }
