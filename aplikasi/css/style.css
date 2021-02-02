@@ -57,7 +57,8 @@
 
 /* About */
 .about {
-    margin-top: 65px;
+    margin-top: 90px;
+    padding-top: 70px;
 }
 
 .judul-about {
@@ -84,6 +85,7 @@
 
 .daftar-dosen {
     margin-top: 60px;
+    padding-top: 70px;
 }
 
 .isi-daftar-dosen {
@@ -146,6 +148,21 @@
     width: 700px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.box-nilai-n {
+    padding: 40px;
+}
+
+/* Halaman berhasil */
+.img-berhasil {
+    width: 330px;
+    height: 330px;
+}
+
+.text-berhasil {
+    font-size: 18px;
+    font-weight: 600;
 }
 
 
@@ -225,8 +242,9 @@
 /* Contact */
 
 .contact {
-    margin-top: 25px;
+    margin-top: 0px;
     margin-bottom: 15px;
+    padding-top: 70px;
 }
 
 .google-maps {
@@ -239,10 +257,27 @@
     margin-top: 0%;
 }
 
+/* Halaman Nilai */
+
 .box-nilai {
     width: 380px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.box-nilai-n {
+    padding: 5px;
+}
+
+/* Halaman berhasil */
+.img-berhasil {
+    width: 200px;
+    height: 200px;
+}
+
+.text-berhasil {
+    font-size: 15px;
+    font-weight: 600;
 }
 
  }

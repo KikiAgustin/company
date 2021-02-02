@@ -37,7 +37,25 @@ function animasiIntroOut() {
     });
 }
 
+// Daftar Dosen
+function navdaftarDosen() {
+    $("#navbar").velocity("transition.slideLeftIn", {
+        stagger: 150,
+        complete: function () {
+            daftarDosen();
+        }
+    });
+}
+
+function daftarDosen() {
+    // $("#sub-awal").removeClass("sub-awal");
+    $("#daftar_dosen .card").velocity("transition.slideLeftIn", {
+        stagger: 150
+    });
+}
+
 
 $(document).ready(function () {
     textIntro();
+    navdaftarDosen();
 });
