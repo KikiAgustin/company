@@ -131,6 +131,23 @@
     background-color: #8f9aff ;
 }
 
+/* Halaman Nilai */
+.halaman-nilai {
+    margin-top: 90px;
+}
+
+.nama-dosen {
+    font-size: 28px;
+    font-weight: 600;
+
+}
+
+.box-nilai {
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 
 /*  Ukuran Mobile */
 @media (max-width: 575.98px) { 
@@ -222,6 +239,12 @@
     margin-top: 0%;
 }
 
+.box-nilai {
+    width: 380px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
  }
 
 
@@ -274,6 +297,12 @@
 
 .isi-contact {
     margin-top: 0%;
+}
+
+.box-nilai {
+    width: 270px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
  }
