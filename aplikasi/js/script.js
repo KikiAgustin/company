@@ -63,6 +63,11 @@ function halamanHome() {
             navbarHome();
         }
     });
+
+    $(".nav-link").click(function () {
+        $(this).addClass("active");
+        $(this).siblings().removeClass("active");
+    });
 }
 
 function navbarHome() {
@@ -76,9 +81,103 @@ function navbarHome() {
     });
 }
 
+function scrollElement() {
+    $(window).scroll(function () {
+        if ($(document).scrollTop() < 150) {
+            $("#about .about-slide").velocity("transition.slideLeftIn", {
+                stagger: 150
+            }).stop();
+
+        }
+
+        if ($(document).scrollTop() < 250) {
+            $(".nav .collapse a .about ").addClass("active");
+            $("#about .about-isi").velocity("transition.slideLeftIn", {
+                stagger: 150
+            }).stop();
+        }
+
+        if ($(document).scrollTop() < 800) {
+            $("#daftar-dosen .bg-about-judul").velocity("transition.slideLeftIn", {
+                stagger: 150
+            }).stop();
+        }
+
+        if ($(document).scrollTop() < 830) {
+            $("#daftar-dosen .col-sm-12").velocity("transition.slideLeftIn", {
+                stagger: 150
+            }).stop();
+        }
+
+        if ($(document).scrollTop() < 1400) {
+            $("#contact .bg-about-judul").velocity("transition.slideLeftIn", {
+                stagger: 150
+            }).stop();
+        }
+
+        if ($(document).scrollTop() < 1430) {
+            $("#contact .isi-contact").velocity("transition.slideLeftIn", {
+                stagger: 150
+            }).stop();
+        }
+    });
+}
+
+// Halaman Rating
+function navbarRating() {
+    $("#navbar-rating").velocity("transition.slideLeftIn", {
+        stagger: 1050,
+        complete: function () {
+            halamanRating();
+        }
+    });
+}
+
+function halamanRating() {
+    $("#halaman-rating").removeClass("hapus-rating");
+    $("#halaman-rating").velocity("transition.bounceUpIn", {
+        stagger: 150
+    });
+}
+
+function animasiNilai() {
+    $("#halaman-rating").velocity("transition.whirlOut", {
+        stagger: 300,
+        complete: function () {
+            location.href = "berhasil.html";
+        }
+    });
+}
+
+// Halaman berhasil
+function halamanBerhasil() {
+    $("#halaman-berhasil").removeClass("hapus-berhasil");
+    $("#halaman-berhasil").velocity("transition.whirlIn", {
+        stagger: 300
+    });
+}
+
+function animasiBerhasil() {
+    $("#halaman-berhasil").velocity("transition.flipBounceYOut", {
+        stagger: 300,
+        complete: function () {
+            location.href = "home.html";
+        }
+    });
+}
+
+
 
 $(document).ready(function () {
     textIntro();
     navdaftarDosen();
     halamanHome();
+    scrollElement();
+    navbarRating();
+    halamanBerhasil();
+
+
 });
+
+
+
