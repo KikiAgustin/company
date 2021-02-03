@@ -55,6 +55,8 @@
     font-weight: 900;
 }
 
+
+
 /* About */
 .about {
     margin-top: 90px;
@@ -108,10 +110,15 @@
     text-decoration: none;
 }
 
+.hapus-daftar {
+    display: none;
+}
+
 
 /* Contact */
 
 .contact {
+    padding-top: 70px;
     margin-top: 25px;
     margin-bottom: 100px;
 }
@@ -163,6 +170,28 @@
 .text-berhasil {
     font-size: 18px;
     font-weight: 600;
+}
+
+/* display none */
+
+.hapus-home {
+    display: none;
+}
+
+.hapus-about {
+    display: none;
+}
+
+.hapus-daftar-dosen {
+    display: none;
+}
+
+.hapus-contact {
+    display: none;
+}
+
+.hapus-footer {
+    display: none;
 }
 
 
